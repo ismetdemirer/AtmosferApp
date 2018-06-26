@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28888C1162C793CFD1399389 /* libPods-Fenomenya.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17505CA55446EF89F538C41A /* libPods-Fenomenya.a */; };
+		DC21FB5720CAE602003B8301 /* VcBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB5620CAE602003B8301 /* VcBase.m */; };
+		DC21FB5C20CAE756003B8301 /* VcFenomenia.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB5A20CAE756003B8301 /* VcFenomenia.m */; };
+		DC21FB5D20CAE756003B8301 /* VcFenomenia.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB5B20CAE756003B8301 /* VcFenomenia.xib */; };
+		DC21FB6120CAE907003B8301 /* UtilCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB6020CAE907003B8301 /* UtilCommon.m */; };
+		DC21FB6720CB029D003B8301 /* VcWelcome.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB6520CB029D003B8301 /* VcWelcome.m */; };
+		DC21FB7C20CB0394003B8301 /* VcLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB7A20CB0394003B8301 /* VcLogin.m */; };
+		DC21FB7D20CB0394003B8301 /* VcLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB7B20CB0394003B8301 /* VcLogin.xib */; };
+		DC21FB8220CB03B4003B8301 /* VcRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB8020CB03B4003B8301 /* VcRegister.m */; };
+		DC21FB8320CB03B4003B8301 /* VcRegister.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB8120CB03B4003B8301 /* VcRegister.xib */; };
+		DC21FB8820CB03D2003B8301 /* VcForgetPass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21FB8620CB03D2003B8301 /* VcForgetPass.m */; };
+		DC21FB8920CB03D2003B8301 /* VcForgetPass.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB8720CB03D2003B8301 /* VcForgetPass.xib */; };
+		DC21FB9020CC0845003B8301 /* fenomenya@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB8E20CC0845003B8301 /* fenomenya@2x.png */; };
+		DC21FB9120CC0845003B8301 /* fenomenya@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB8F20CC0845003B8301 /* fenomenya@3x.png */; };
+		DC21FB9720CC13EC003B8301 /* Proxima Nova Bold It.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9320CC13EC003B8301 /* Proxima Nova Bold It.otf */; };
+		DC21FB9820CC13EC003B8301 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9420CC13EC003B8301 /* Proxima Nova Bold.otf */; };
+		DC21FB9920CC13EC003B8301 /* Proxima Nova Reg It.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9520CC13EC003B8301 /* Proxima Nova Reg It.otf */; };
+		DC21FB9A20CC13EC003B8301 /* Proxima Nova Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9620CC13EC003B8301 /* Proxima Nova Reg.otf */; };
+		DC21FB9D20CC172B003B8301 /* illustration@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9B20CC172B003B8301 /* illustration@3x.png */; };
+		DC21FB9E20CC172B003B8301 /* illustration@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21FB9C20CC172B003B8301 /* illustration@2x.png */; };
+		DC63C89E20A36AD60004A181 /* WsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DC63C89D20A36AD60004A181 /* WsUtil.m */; };
+		DC8B7B7F2090FE0A00B562C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8B7B7E2090FE0A00B562C8 /* AppDelegate.m */; };
+		DC8B7B852090FE0A00B562C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8B7B832090FE0A00B562C8 /* Main.storyboard */; };
+		DC8B7B872090FE0A00B562C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8B7B862090FE0A00B562C8 /* Assets.xcassets */; };
+		DC8B7B8A2090FE0A00B562C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8B7B882090FE0A00B562C8 /* LaunchScreen.storyboard */; };
+		DC8B7B8D2090FE0A00B562C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8B7B8C2090FE0A00B562C8 /* main.m */; };
+		DCAF536E20CD4E6900BFFA99 /* icon-password.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF536A20CD4E6900BFFA99 /* icon-password.png */; };
+		DCAF536F20CD4E6900BFFA99 /* icon-username.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF536B20CD4E6900BFFA99 /* icon-username.png */; };
+		DCAF537020CD4E6900BFFA99 /* text-field-bg-error.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF536C20CD4E6900BFFA99 /* text-field-bg-error.png */; };
+		DCAF537120CD4E6900BFFA99 /* text-field-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF536D20CD4E6900BFFA99 /* text-field-bg.png */; };
+		DCAF539E20CD64A400BFFA99 /* SplashIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF539C20CD64A400BFFA99 /* SplashIcon@2x.png */; };
+		DCAF539F20CD64A400BFFA99 /* SplashIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF539D20CD64A400BFFA99 /* SplashIcon@3x.png */; };
+		DCAF53A720CD7B3200BFFA99 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A120CD7B3200BFFA99 /* menu-icon.png */; };
+		DCAF53A820CD7B3200BFFA99 /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A220CD7B3200BFFA99 /* menu-icon@2x.png */; };
+		DCAF53A920CD7B3200BFFA99 /* menu-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A320CD7B3200BFFA99 /* menu-icon@3x.png */; };
+		DCAF53AA20CD7B3200BFFA99 /* Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A420CD7B3200BFFA99 /* Shape.png */; };
+		DCAF53AB20CD7B3200BFFA99 /* Shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A520CD7B3200BFFA99 /* Shape@2x.png */; };
+		DCAF53AC20CD7B3200BFFA99 /* Shape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAF53A620CD7B3200BFFA99 /* Shape@3x.png */; };
+		DCAF53B120CD7DBD00BFFA99 /* BaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF53B020CD7DBD00BFFA99 /* BaseTableCell.m */; };
+		DCAF53B420CD7DEB00BFFA99 /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF53B320CD7DEB00BFFA99 /* GradientButton.m */; };
+		DCAF53B820CD7E2300BFFA99 /* TableCellFenomenia.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF53B720CD7E2300BFFA99 /* TableCellFenomenia.m */; };
+		DCF503D720A0D25F0073F83D /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF503D620A0D25F0073F83D /* Models.m */; };
+		DCF5582F20CEFD3D00B9D267 /* albaraka.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5582A20CEFD3D00B9D267 /* albaraka.png */; };
+		DCF5583020CEFD3D00B9D267 /* bookmark-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5582B20CEFD3D00B9D267 /* bookmark-active.png */; };
+		DCF5583120CEFD3D00B9D267 /* bookmark-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5582C20CEFD3D00B9D267 /* bookmark-inactive.png */; };
+		DCF5583220CEFD3D00B9D267 /* like-button-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5582D20CEFD3D00B9D267 /* like-button-active.png */; };
+		DCF5583320CEFD3D00B9D267 /* like-button-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5582E20CEFD3D00B9D267 /* like-button-inactive.png */; };
+		DCF5583E20D02ACF00B9D267 /* linkedin-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583420D02ACE00B9D267 /* linkedin-active.png */; };
+		DCF5583F20D02ACF00B9D267 /* linkedin-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583520D02ACE00B9D267 /* linkedin-inactive.png */; };
+		DCF5584020D02ACF00B9D267 /* twitter-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583620D02ACF00B9D267 /* twitter-inactive.png */; };
+		DCF5584120D02ACF00B9D267 /* instagram-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583720D02ACF00B9D267 /* instagram-active.png */; };
+		DCF5584220D02ACF00B9D267 /* facebook-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583820D02ACF00B9D267 /* facebook-active.png */; };
+		DCF5584320D02ACF00B9D267 /* twitter-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583920D02ACF00B9D267 /* twitter-active.png */; };
+		DCF5584420D02ACF00B9D267 /* facebook-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583A20D02ACF00B9D267 /* facebook-inactive.png */; };
+		DCF5584520D02ACF00B9D267 /* instagram-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583B20D02ACF00B9D267 /* instagram-inactive.png */; };
+		DCF5584620D02ACF00B9D267 /* whatsapp-active.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583C20D02ACF00B9D267 /* whatsapp-active.png */; };
+		DCF5584720D02ACF00B9D267 /* whatsapp-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5583D20D02ACF00B9D267 /* whatsapp-inactive.png */; };
+		DCF5584920D185B300B9D267 /* puan-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5584820D185B300B9D267 /* puan-bg.png */; };
+		DCFFE56320D8153A00116368 /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFFE56220D8153A00116368 /* linkedin-sdk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A450AFADFD8403159D75876 /* Pods-Fenomenya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenomenya.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenomenya/Pods-Fenomenya.release.xcconfig"; sourceTree = "<group>"; };
+		17505CA55446EF89F538C41A /* libPods-Fenomenya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fenomenya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		974446E9200DB43DD2BD09E9 /* Pods-Fenomenya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenomenya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenomenya/Pods-Fenomenya.debug.xcconfig"; sourceTree = "<group>"; };
+		DC21FB5520CAE602003B8301 /* VcBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcBase.h; sourceTree = "<group>"; };
+		DC21FB5620CAE602003B8301 /* VcBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcBase.m; sourceTree = "<group>"; };
+		DC21FB5920CAE756003B8301 /* VcFenomenia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcFenomenia.h; sourceTree = "<group>"; };
+		DC21FB5A20CAE756003B8301 /* VcFenomenia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcFenomenia.m; sourceTree = "<group>"; };
+		DC21FB5B20CAE756003B8301 /* VcFenomenia.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VcFenomenia.xib; sourceTree = "<group>"; };
+		DC21FB5F20CAE907003B8301 /* UtilCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilCommon.h; sourceTree = "<group>"; };
+		DC21FB6020CAE907003B8301 /* UtilCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilCommon.m; sourceTree = "<group>"; };
+		DC21FB6420CB029D003B8301 /* VcWelcome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcWelcome.h; sourceTree = "<group>"; };
+		DC21FB6520CB029D003B8301 /* VcWelcome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcWelcome.m; sourceTree = "<group>"; };
+		DC21FB7920CB0394003B8301 /* VcLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcLogin.h; sourceTree = "<group>"; };
+		DC21FB7A20CB0394003B8301 /* VcLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcLogin.m; sourceTree = "<group>"; };
+		DC21FB7B20CB0394003B8301 /* VcLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VcLogin.xib; sourceTree = "<group>"; };
+		DC21FB7F20CB03B4003B8301 /* VcRegister.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcRegister.h; sourceTree = "<group>"; };
+		DC21FB8020CB03B4003B8301 /* VcRegister.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcRegister.m; sourceTree = "<group>"; };
+		DC21FB8120CB03B4003B8301 /* VcRegister.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VcRegister.xib; sourceTree = "<group>"; };
+		DC21FB8520CB03D2003B8301 /* VcForgetPass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcForgetPass.h; sourceTree = "<group>"; };
+		DC21FB8620CB03D2003B8301 /* VcForgetPass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcForgetPass.m; sourceTree = "<group>"; };
+		DC21FB8720CB03D2003B8301 /* VcForgetPass.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VcForgetPass.xib; sourceTree = "<group>"; };
+		DC21FB8E20CC0845003B8301 /* fenomenya@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fenomenya@2x.png"; sourceTree = "<group>"; };
+		DC21FB8F20CC0845003B8301 /* fenomenya@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fenomenya@3x.png"; sourceTree = "<group>"; };
+		DC21FB9320CC13EC003B8301 /* Proxima Nova Bold It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold It.otf"; sourceTree = "<group>"; };
+		DC21FB9420CC13EC003B8301 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		DC21FB9520CC13EC003B8301 /* Proxima Nova Reg It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Reg It.otf"; sourceTree = "<group>"; };
+		DC21FB9620CC13EC003B8301 /* Proxima Nova Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Reg.otf"; sourceTree = "<group>"; };
+		DC21FB9B20CC172B003B8301 /* illustration@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "illustration@3x.png"; sourceTree = "<group>"; };
+		DC21FB9C20CC172B003B8301 /* illustration@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "illustration@2x.png"; sourceTree = "<group>"; };
+		DC63C89C20A36AD60004A181 /* WsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WsUtil.h; sourceTree = "<group>"; };
+		DC63C89D20A36AD60004A181 /* WsUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WsUtil.m; sourceTree = "<group>"; };
+		DC8B7B7A2090FE0A00B562C8 /* Fenomenya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fenomenya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8B7B7D2090FE0A00B562C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC8B7B7E2090FE0A00B562C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC8B7B842090FE0A00B562C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC8B7B862090FE0A00B562C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8B7B892090FE0A00B562C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC8B7B8B2090FE0A00B562C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8B7B8C2090FE0A00B562C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAF536A20CD4E6900BFFA99 /* icon-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-password.png"; sourceTree = "<group>"; };
+		DCAF536B20CD4E6900BFFA99 /* icon-username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-username.png"; sourceTree = "<group>"; };
+		DCAF536C20CD4E6900BFFA99 /* text-field-bg-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-field-bg-error.png"; sourceTree = "<group>"; };
+		DCAF536D20CD4E6900BFFA99 /* text-field-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-field-bg.png"; sourceTree = "<group>"; };
+		DCAF539C20CD64A400BFFA99 /* SplashIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SplashIcon@2x.png"; sourceTree = "<group>"; };
+		DCAF539D20CD64A400BFFA99 /* SplashIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SplashIcon@3x.png"; sourceTree = "<group>"; };
+		DCAF53A120CD7B3200BFFA99 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		DCAF53A220CD7B3200BFFA99 /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		DCAF53A320CD7B3200BFFA99 /* menu-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@3x.png"; sourceTree = "<group>"; };
+		DCAF53A420CD7B3200BFFA99 /* Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shape.png; sourceTree = "<group>"; };
+		DCAF53A520CD7B3200BFFA99 /* Shape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shape@2x.png"; sourceTree = "<group>"; };
+		DCAF53A620CD7B3200BFFA99 /* Shape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shape@3x.png"; sourceTree = "<group>"; };
+		DCAF53AF20CD7DBD00BFFA99 /* BaseTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableCell.h; sourceTree = "<group>"; };
+		DCAF53B020CD7DBD00BFFA99 /* BaseTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableCell.m; sourceTree = "<group>"; };
+		DCAF53B220CD7DEB00BFFA99 /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientButton.h; path = Fenomenya/UserControls/GradientButton/GradientButton.h; sourceTree = SOURCE_ROOT; };
+		DCAF53B320CD7DEB00BFFA99 /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientButton.m; path = Fenomenya/UserControls/GradientButton/GradientButton.m; sourceTree = SOURCE_ROOT; };
+		DCAF53B620CD7E2300BFFA99 /* TableCellFenomenia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellFenomenia.h; sourceTree = "<group>"; };
+		DCAF53B720CD7E2300BFFA99 /* TableCellFenomenia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellFenomenia.m; sourceTree = "<group>"; };
+		DCF503D520A0D25F0073F83D /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		DCF503D620A0D25F0073F83D /* Models.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
+		DCF503D920A0D5B20073F83D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DCF5582A20CEFD3D00B9D267 /* albaraka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albaraka.png; sourceTree = "<group>"; };
+		DCF5582B20CEFD3D00B9D267 /* bookmark-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-active.png"; sourceTree = "<group>"; };
+		DCF5582C20CEFD3D00B9D267 /* bookmark-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bookmark-inactive.png"; sourceTree = "<group>"; };
+		DCF5582D20CEFD3D00B9D267 /* like-button-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-button-active.png"; sourceTree = "<group>"; };
+		DCF5582E20CEFD3D00B9D267 /* like-button-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-button-inactive.png"; sourceTree = "<group>"; };
+		DCF5583420D02ACE00B9D267 /* linkedin-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin-active.png"; sourceTree = "<group>"; };
+		DCF5583520D02ACE00B9D267 /* linkedin-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedin-inactive.png"; sourceTree = "<group>"; };
+		DCF5583620D02ACF00B9D267 /* twitter-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-inactive.png"; sourceTree = "<group>"; };
+		DCF5583720D02ACF00B9D267 /* instagram-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-active.png"; sourceTree = "<group>"; };
+		DCF5583820D02ACF00B9D267 /* facebook-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-active.png"; sourceTree = "<group>"; };
+		DCF5583920D02ACF00B9D267 /* twitter-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-active.png"; sourceTree = "<group>"; };
+		DCF5583A20D02ACF00B9D267 /* facebook-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-inactive.png"; sourceTree = "<group>"; };
+		DCF5583B20D02ACF00B9D267 /* instagram-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instagram-inactive.png"; sourceTree = "<group>"; };
+		DCF5583C20D02ACF00B9D267 /* whatsapp-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-active.png"; sourceTree = "<group>"; };
+		DCF5583D20D02ACF00B9D267 /* whatsapp-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsapp-inactive.png"; sourceTree = "<group>"; };
+		DCF5584820D185B300B9D267 /* puan-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "puan-bg.png"; sourceTree = "<group>"; };
+		DCFFE56220D8153A00116368 /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "linkedin-sdk.framework"; path = "Fenomenya/SDKs/linkedin-sdk.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8B7B772090FE0A00B562C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28888C1162C793CFD1399389 /* libPods-Fenomenya.a in Frameworks */,
+				DCFFE56320D8153A00116368 /* linkedin-sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4F1A0573BA3513D81F206C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFFE56220D8153A00116368 /* linkedin-sdk.framework */,
+				17505CA55446EF89F538C41A /* libPods-Fenomenya.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA9E549A7918B896E261335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974446E9200DB43DD2BD09E9 /* Pods-Fenomenya.debug.xcconfig */,
+				0A450AFADFD8403159D75876 /* Pods-Fenomenya.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC21FB5320CAE5D1003B8301 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB7720CB0375003B8301 /* Login */,
+				DC21FB5820CAE611003B8301 /* VcFenomenia */,
+				DC21FB5420CAE5DA003B8301 /* VcBase */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DC21FB5420CAE5DA003B8301 /* VcBase */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB5520CAE602003B8301 /* VcBase.h */,
+				DC21FB5620CAE602003B8301 /* VcBase.m */,
+			);
+			path = VcBase;
+			sourceTree = "<group>";
+		};
+		DC21FB5820CAE611003B8301 /* VcFenomenia */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53B520CD7DF900BFFA99 /* TableCellFenomenia */,
+				DC21FB5920CAE756003B8301 /* VcFenomenia.h */,
+				DC21FB5A20CAE756003B8301 /* VcFenomenia.m */,
+				DC21FB5B20CAE756003B8301 /* VcFenomenia.xib */,
+			);
+			path = VcFenomenia;
+			sourceTree = "<group>";
+		};
+		DC21FB5E20CAE8D1003B8301 /* UtilCommon */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB5F20CAE907003B8301 /* UtilCommon.h */,
+				DC21FB6020CAE907003B8301 /* UtilCommon.m */,
+			);
+			path = UtilCommon;
+			sourceTree = "<group>";
+		};
+		DC21FB6320CB0251003B8301 /* VcWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB6420CB029D003B8301 /* VcWelcome.h */,
+				DC21FB6520CB029D003B8301 /* VcWelcome.m */,
+			);
+			path = VcWelcome;
+			sourceTree = "<group>";
+		};
+		DC21FB7720CB0375003B8301 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB6320CB0251003B8301 /* VcWelcome */,
+				DC21FB8420CB03B9003B8301 /* VcForgetPass */,
+				DC21FB7E20CB0399003B8301 /* VcRegister */,
+				DC21FB7820CB037E003B8301 /* VcLogin */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DC21FB7820CB037E003B8301 /* VcLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB7920CB0394003B8301 /* VcLogin.h */,
+				DC21FB7A20CB0394003B8301 /* VcLogin.m */,
+				DC21FB7B20CB0394003B8301 /* VcLogin.xib */,
+			);
+			path = VcLogin;
+			sourceTree = "<group>";
+		};
+		DC21FB7E20CB0399003B8301 /* VcRegister */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB7F20CB03B4003B8301 /* VcRegister.h */,
+				DC21FB8020CB03B4003B8301 /* VcRegister.m */,
+				DC21FB8120CB03B4003B8301 /* VcRegister.xib */,
+			);
+			path = VcRegister;
+			sourceTree = "<group>";
+		};
+		DC21FB8420CB03B9003B8301 /* VcForgetPass */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB8520CB03D2003B8301 /* VcForgetPass.h */,
+				DC21FB8620CB03D2003B8301 /* VcForgetPass.m */,
+				DC21FB8720CB03D2003B8301 /* VcForgetPass.xib */,
+			);
+			path = VcForgetPass;
+			sourceTree = "<group>";
+		};
+		DC21FB8B20CC0845003B8301 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB9220CC13EC003B8301 /* Fonts */,
+				DC21FB8C20CC0845003B8301 /* Images */,
+			);
+			path = SupportedFiles;
+			sourceTree = "<group>";
+		};
+		DC21FB8C20CC0845003B8301 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53A020CD7B3200BFFA99 /* VcFenomenya */,
+				DCAF539920CD63E700BFFA99 /* Splash */,
+				DCAF536920CD4E6900BFFA99 /* VcLogin */,
+				DC21FB8D20CC0845003B8301 /* VcWelcome */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DC21FB8D20CC0845003B8301 /* VcWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB9C20CC172B003B8301 /* illustration@2x.png */,
+				DC21FB9B20CC172B003B8301 /* illustration@3x.png */,
+				DC21FB8E20CC0845003B8301 /* fenomenya@2x.png */,
+				DC21FB8F20CC0845003B8301 /* fenomenya@3x.png */,
+			);
+			path = VcWelcome;
+			sourceTree = "<group>";
+		};
+		DC21FB9220CC13EC003B8301 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FB9320CC13EC003B8301 /* Proxima Nova Bold It.otf */,
+				DC21FB9420CC13EC003B8301 /* Proxima Nova Bold.otf */,
+				DC21FB9520CC13EC003B8301 /* Proxima Nova Reg It.otf */,
+				DC21FB9620CC13EC003B8301 /* Proxima Nova Reg.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DC2E5A0320CD2ADF003AD0BB /* UserControls */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53AE20CD7D7900BFFA99 /* BaseTableCell */,
+				DCAF53AD20CD7D5100BFFA99 /* GradientButton */,
+			);
+			path = UserControls;
+			sourceTree = "<group>";
+		};
+		DC63C89B20A36AA10004A181 /* WsUtil */ = {
+			isa = PBXGroup;
+			children = (
+				DC63C89C20A36AD60004A181 /* WsUtil.h */,
+				DC63C89D20A36AD60004A181 /* WsUtil.m */,
+			);
+			path = WsUtil;
+			sourceTree = "<group>";
+		};
+		DC8B7B712090FE0900B562C8 = {
+			isa = PBXGroup;
+			children = (
+				DC8B7B7C2090FE0A00B562C8 /* Fenomenya */,
+				DC8B7B7B2090FE0A00B562C8 /* Products */,
+				CDA9E549A7918B896E261335 /* Pods */,
+				B4F1A0573BA3513D81F206C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8B7B7B2090FE0A00B562C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8B7B7A2090FE0A00B562C8 /* Fenomenya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8B7B7C2090FE0A00B562C8 /* Fenomenya */ = {
+			isa = PBXGroup;
+			children = (
+				DC2E5A0320CD2ADF003AD0BB /* UserControls */,
+				DC21FB8B20CC0845003B8301 /* SupportedFiles */,
+				DC21FB5E20CAE8D1003B8301 /* UtilCommon */,
+				DC21FB5320CAE5D1003B8301 /* VC */,
+				DC63C89B20A36AA10004A181 /* WsUtil */,
+				DCF503D820A0D5960073F83D /* Defines */,
+				DCF503D420A0D1FD0073F83D /* Models */,
+				DC8B7B7D2090FE0A00B562C8 /* AppDelegate.h */,
+				DC8B7B7E2090FE0A00B562C8 /* AppDelegate.m */,
+				DC8B7B832090FE0A00B562C8 /* Main.storyboard */,
+				DC8B7B862090FE0A00B562C8 /* Assets.xcassets */,
+				DC8B7B882090FE0A00B562C8 /* LaunchScreen.storyboard */,
+				DC8B7B8B2090FE0A00B562C8 /* Info.plist */,
+				DC8B7B8C2090FE0A00B562C8 /* main.m */,
+			);
+			path = Fenomenya;
+			sourceTree = "<group>";
+		};
+		DCAF536920CD4E6900BFFA99 /* VcLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF536A20CD4E6900BFFA99 /* icon-password.png */,
+				DCAF536B20CD4E6900BFFA99 /* icon-username.png */,
+				DCAF536C20CD4E6900BFFA99 /* text-field-bg-error.png */,
+				DCAF536D20CD4E6900BFFA99 /* text-field-bg.png */,
+			);
+			path = VcLogin;
+			sourceTree = "<group>";
+		};
+		DCAF539920CD63E700BFFA99 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF539C20CD64A400BFFA99 /* SplashIcon@2x.png */,
+				DCAF539D20CD64A400BFFA99 /* SplashIcon@3x.png */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DCAF53A020CD7B3200BFFA99 /* VcFenomenya */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5584820D185B300B9D267 /* puan-bg.png */,
+				DCF5582920CEFD3D00B9D267 /* TableCellFenomenia */,
+				DCAF53A120CD7B3200BFFA99 /* menu-icon.png */,
+				DCAF53A220CD7B3200BFFA99 /* menu-icon@2x.png */,
+				DCAF53A320CD7B3200BFFA99 /* menu-icon@3x.png */,
+				DCAF53A420CD7B3200BFFA99 /* Shape.png */,
+				DCAF53A520CD7B3200BFFA99 /* Shape@2x.png */,
+				DCAF53A620CD7B3200BFFA99 /* Shape@3x.png */,
+			);
+			path = VcFenomenya;
+			sourceTree = "<group>";
+		};
+		DCAF53AD20CD7D5100BFFA99 /* GradientButton */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53B220CD7DEB00BFFA99 /* GradientButton.h */,
+				DCAF53B320CD7DEB00BFFA99 /* GradientButton.m */,
+			);
+			name = GradientButton;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DCAF53AE20CD7D7900BFFA99 /* BaseTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53AF20CD7DBD00BFFA99 /* BaseTableCell.h */,
+				DCAF53B020CD7DBD00BFFA99 /* BaseTableCell.m */,
+			);
+			path = BaseTableCell;
+			sourceTree = "<group>";
+		};
+		DCAF53B520CD7DF900BFFA99 /* TableCellFenomenia */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF53B620CD7E2300BFFA99 /* TableCellFenomenia.h */,
+				DCAF53B720CD7E2300BFFA99 /* TableCellFenomenia.m */,
+			);
+			path = TableCellFenomenia;
+			sourceTree = "<group>";
+		};
+		DCF503D420A0D1FD0073F83D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCF503D520A0D25F0073F83D /* Models.h */,
+				DCF503D620A0D25F0073F83D /* Models.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCF503D820A0D5960073F83D /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				DCF503D920A0D5B20073F83D /* Header.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		DCF5582920CEFD3D00B9D267 /* TableCellFenomenia */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5583820D02ACF00B9D267 /* facebook-active.png */,
+				DCF5583A20D02ACF00B9D267 /* facebook-inactive.png */,
+				DCF5583720D02ACF00B9D267 /* instagram-active.png */,
+				DCF5583B20D02ACF00B9D267 /* instagram-inactive.png */,
+				DCF5583420D02ACE00B9D267 /* linkedin-active.png */,
+				DCF5583520D02ACE00B9D267 /* linkedin-inactive.png */,
+				DCF5583920D02ACF00B9D267 /* twitter-active.png */,
+				DCF5583620D02ACF00B9D267 /* twitter-inactive.png */,
+				DCF5583C20D02ACF00B9D267 /* whatsapp-active.png */,
+				DCF5583D20D02ACF00B9D267 /* whatsapp-inactive.png */,
+				DCF5582A20CEFD3D00B9D267 /* albaraka.png */,
+				DCF5582B20CEFD3D00B9D267 /* bookmark-active.png */,
+				DCF5582C20CEFD3D00B9D267 /* bookmark-inactive.png */,
+				DCF5582D20CEFD3D00B9D267 /* like-button-active.png */,
+				DCF5582E20CEFD3D00B9D267 /* like-button-inactive.png */,
+			);
+			path = TableCellFenomenia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC8B7B792090FE0A00B562C8 /* Fenomenya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8B7B902090FE0A00B562C8 /* Build configuration list for PBXNativeTarget "Fenomenya" */;
+			buildPhases = (
+				4B17E204338413A9284C858F /* [CP] Check Pods Manifest.lock */,
+				DC8B7B762090FE0A00B562C8 /* Sources */,
+				DC8B7B772090FE0A00B562C8 /* Frameworks */,
+				DC8B7B782090FE0A00B562C8 /* Resources */,
+				B6522F0A1E584BD41C2EA171 /* [CP] Embed Pods Frameworks */,
+				631981D332A6A7259F102812 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fenomenya;
+			productName = Fenomenya;
+			productReference = DC8B7B7A2090FE0A00B562C8 /* Fenomenya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC8B7B722090FE0900B562C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mehmet ONDER";
+				TargetAttributes = {
+					DC8B7B792090FE0A00B562C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC8B7B752090FE0900B562C8 /* Build configuration list for PBXProject "Fenomenya" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC8B7B712090FE0900B562C8;
+			productRefGroup = DC8B7B7B2090FE0A00B562C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8B7B792090FE0A00B562C8 /* Fenomenya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8B7B782090FE0A00B562C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF5583220CEFD3D00B9D267 /* like-button-active.png in Resources */,
+				DC21FB9120CC0845003B8301 /* fenomenya@3x.png in Resources */,
+				DC21FB9A20CC13EC003B8301 /* Proxima Nova Reg.otf in Resources */,
+				DCF5584320D02ACF00B9D267 /* twitter-active.png in Resources */,
+				DCAF53AB20CD7B3200BFFA99 /* Shape@2x.png in Resources */,
+				DC21FB9720CC13EC003B8301 /* Proxima Nova Bold It.otf in Resources */,
+				DC21FB8920CB03D2003B8301 /* VcForgetPass.xib in Resources */,
+				DCF5584520D02ACF00B9D267 /* instagram-inactive.png in Resources */,
+				DC8B7B8A2090FE0A00B562C8 /* LaunchScreen.storyboard in Resources */,
+				DCF5583E20D02ACF00B9D267 /* linkedin-active.png in Resources */,
+				DCF5582F20CEFD3D00B9D267 /* albaraka.png in Resources */,
+				DC21FB9020CC0845003B8301 /* fenomenya@2x.png in Resources */,
+				DCAF539E20CD64A400BFFA99 /* SplashIcon@2x.png in Resources */,
+				DC21FB9D20CC172B003B8301 /* illustration@3x.png in Resources */,
+				DCF5583F20D02ACF00B9D267 /* linkedin-inactive.png in Resources */,
+				DCAF536F20CD4E6900BFFA99 /* icon-username.png in Resources */,
+				DCF5584120D02ACF00B9D267 /* instagram-active.png in Resources */,
+				DCF5584020D02ACF00B9D267 /* twitter-inactive.png in Resources */,
+				DCF5584620D02ACF00B9D267 /* whatsapp-active.png in Resources */,
+				DCAF53AA20CD7B3200BFFA99 /* Shape.png in Resources */,
+				DCAF539F20CD64A400BFFA99 /* SplashIcon@3x.png in Resources */,
+				DC21FB7D20CB0394003B8301 /* VcLogin.xib in Resources */,
+				DCF5584220D02ACF00B9D267 /* facebook-active.png in Resources */,
+				DCF5583020CEFD3D00B9D267 /* bookmark-active.png in Resources */,
+				DCAF53A720CD7B3200BFFA99 /* menu-icon.png in Resources */,
+				DCF5583120CEFD3D00B9D267 /* bookmark-inactive.png in Resources */,
+				DCF5584720D02ACF00B9D267 /* whatsapp-inactive.png in Resources */,
+				DCAF536E20CD4E6900BFFA99 /* icon-password.png in Resources */,
+				DCF5584920D185B300B9D267 /* puan-bg.png in Resources */,
+				DC8B7B872090FE0A00B562C8 /* Assets.xcassets in Resources */,
+				DCF5584420D02ACF00B9D267 /* facebook-inactive.png in Resources */,
+				DC21FB9E20CC172B003B8301 /* illustration@2x.png in Resources */,
+				DC8B7B852090FE0A00B562C8 /* Main.storyboard in Resources */,
+				DC21FB9820CC13EC003B8301 /* Proxima Nova Bold.otf in Resources */,
+				DCAF53A920CD7B3200BFFA99 /* menu-icon@3x.png in Resources */,
+				DC21FB9920CC13EC003B8301 /* Proxima Nova Reg It.otf in Resources */,
+				DCF5583320CEFD3D00B9D267 /* like-button-inactive.png in Resources */,
+				DCAF53AC20CD7B3200BFFA99 /* Shape@3x.png in Resources */,
+				DCAF53A820CD7B3200BFFA99 /* menu-icon@2x.png in Resources */,
+				DCAF537120CD4E6900BFFA99 /* text-field-bg.png in Resources */,
+				DC21FB8320CB03B4003B8301 /* VcRegister.xib in Resources */,
+				DCAF537020CD4E6900BFFA99 /* text-field-bg-error.png in Resources */,
+				DC21FB5D20CAE756003B8301 /* VcFenomenia.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B17E204338413A9284C858F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fenomenya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631981D332A6A7259F102812 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fenomenya/Pods-Fenomenya-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fenomenya/Pods-Fenomenya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6522F0A1E584BD41C2EA171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fenomenya/Pods-Fenomenya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8B7B762090FE0A00B562C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC21FB6720CB029D003B8301 /* VcWelcome.m in Sources */,
+				DCAF53B420CD7DEB00BFFA99 /* GradientButton.m in Sources */,
+				DC63C89E20A36AD60004A181 /* WsUtil.m in Sources */,
+				DC21FB7C20CB0394003B8301 /* VcLogin.m in Sources */,
+				DC21FB5720CAE602003B8301 /* VcBase.m in Sources */,
+				DCAF53B820CD7E2300BFFA99 /* TableCellFenomenia.m in Sources */,
+				DCAF53B120CD7DBD00BFFA99 /* BaseTableCell.m in Sources */,
+				DC21FB8220CB03B4003B8301 /* VcRegister.m in Sources */,
+				DC8B7B8D2090FE0A00B562C8 /* main.m in Sources */,
+				DC8B7B7F2090FE0A00B562C8 /* AppDelegate.m in Sources */,
+				DC21FB8820CB03D2003B8301 /* VcForgetPass.m in Sources */,
+				DCF503D720A0D25F0073F83D /* Models.m in Sources */,
+				DC21FB6120CAE907003B8301 /* UtilCommon.m in Sources */,
+				DC21FB5C20CAE756003B8301 /* VcFenomenia.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC8B7B832090FE0A00B562C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8B7B842090FE0A00B562C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC8B7B882090FE0A00B562C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8B7B892090FE0A00B562C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8B7B8E2090FE0A00B562C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC8B7B8F2090FE0A00B562C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8B7B912090FE0A00B562C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974446E9200DB43DD2BD09E9 /* Pods-Fenomenya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXE9HL5D78;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fenomenya/SDKs",
+				);
+				INFOPLIST_FILE = Fenomenya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotto.Fenomenya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC8B7B922090FE0A00B562C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A450AFADFD8403159D75876 /* Pods-Fenomenya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXE9HL5D78;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fenomenya/SDKs",
+				);
+				INFOPLIST_FILE = Fenomenya/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dotto.Fenomenya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC8B7B752090FE0900B562C8 /* Build configuration list for PBXProject "Fenomenya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8B7B8E2090FE0A00B562C8 /* Debug */,
+				DC8B7B8F2090FE0A00B562C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8B7B902090FE0A00B562C8 /* Build configuration list for PBXNativeTarget "Fenomenya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8B7B912090FE0A00B562C8 /* Debug */,
+				DC8B7B922090FE0A00B562C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC8B7B722090FE0900B562C8 /* Project object */;
+}
